@@ -1,26 +1,15 @@
-# Digital Design Lab 2
+# Divisible by Five FSM
 
 ## Contents
 - [Digital Design Lab 2](#digital-design-lab-2)
   - [Contents](#contents)
-  - [Before you start](#before-you-start)
-    - [Optional: NAND Game](#optional-nand-game)
-    - [Important terminology](#important-terminology)
   - [Hand-Synthesis](#hand-synthesis)
   - [Divisible-by-5 FSM](#divisible-by-5-fsm)
   - [Synthesis](#synthesis)
 
-## Before you start
+## NOTE
 
-### Optional: NAND Game
-[NAND Game](https://www.nandgame.com/) is a pretty good browser-based logic-gate game that walks you through the layers of abstraction going from NAND gates to a functional (albeit simplistic) microprocessor. This isn't required, but it is a fun way to see how things are built up from gates.
-
-### Important terminology
-- Serial Data: Data that is sent 1 (or a few) bits at a time, instead of being presented all at once in parallel. 
-- Most/Least-significant-bit first: Direction of a serial data stream. MSB sends bits from highest to lowest place-value, LSB is the opposite.
-
-## Hand-Synthesis
-As a refresher, the process of converting a higher-level description into a circuit *netlist*, or gate-level representation, is called *synthesis*. As a first exercise, try synthesizing the following SystemVerilog description into gates by hand. You can use any of the basic gates (AND, OR, NOT, NAND, NOR) with any number of inputs (e.g. 3-input AND) in addition to 2-input XOR and XNOR, 2:1 muxes, N-bit full adders, and D Flip-Flops with active-low reset. Draw a diagram (by hand if you want).
+This is a lab done in Fall 2024 in the Intro to SoCET subteam of SoCET. Credit for the lab structure and Makefile shoud be due to the original creators of the lab. All I did was complete the FSM module and testbench and generated the netlists using Yosys.
 
 
 
